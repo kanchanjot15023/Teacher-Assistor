@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1">
+
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Hey!"
+        android:id="@+id/textView4"
+        android:background="#6184d8" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/button10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/student"/>
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:text="Update Skill Set"
+        android:id="@+id/button11"
+        android:layout_marginTop="60dp"
+        android:textSize="20dp"
+        android:background="@drawable/round_button3"
+        android:backgroundTint="#6184d8"
+
+
+        android:layout_below="@+id/button10"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/skillprofile"
+        android:drawablePadding="6dp"/>
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:text="Profile"
+        android:id="@+id/button12"
+        android:layout_below="@+id/button11"
+        android:layout_alignStart="@+id/button11"
+        android:textSize="20dp"
+        android:background="@drawable/round_button3"
+        android:backgroundTint="#6184d8"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/teacherprofile"
+        android:drawablePadding="6dp"/>
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:text="Rating"
+        android:id="@+id/button13"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/button12"
+        android:layout_alignStart="@+id/button12"
+        android:textSize="20dp"
+        android:background="@drawable/round_button3"
+        android:backgroundTint="#6184d8"
+        android:drawableLeft="@drawable/ratingprofile"
+        android:drawablePadding="6dp"/>
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:text="TASK"
+        android:id="@+id/button14"
+        android:layout_below="@+id/button13"
+        android:layout_alignStart="@+id/button13"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:background="@drawable/round_button3"
+        android:backgroundTint="#6184d8"
+        android:drawableLeft="@drawable/taskprofile1"
+        android:drawablePadding="6dp"/>
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:text="Add Course"
+        android:id="@+id/button15"
+        android:layout_below="@+id/button14"
+        android:layout_alignEnd="@+id/button11"
+        android:textSize="20dp"
+        android:background="@drawable/round_button3"
+        android:backgroundTint="#6184d8"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/courseprofile"
+        android:drawablePadding="6dp"/>
+</RelativeLayout>

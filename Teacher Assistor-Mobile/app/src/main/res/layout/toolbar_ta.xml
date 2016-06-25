@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/toolbarT"
+    android:orientation="horizontal"
+    android:background="@drawable/customlayout1">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1" >
+    </View>
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text=""
+        android:background="@drawable/button_profile"
+        android:id="@+id/button23" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1" >
+    </View>
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text=""
+        android:background="@drawable/button1"
+        android:id="@+id/button24" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1" >
+    </View>
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text=""
+        android:background="@drawable/button_skill"
+        android:id="@+id/button25" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1" >
+    </View>
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text=""
+        android:background="@drawable/button_rating"
+        android:id="@+id/button26" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1" >
+    </View>
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text=""
+        android:background="@drawable/button_notification"
+        android:id="@+id/button27" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1" >
+    </View>
+</LinearLayout>

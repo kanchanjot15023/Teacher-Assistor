@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1">
+
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Hey!"
+        android:id="@+id/textView3"
+        android:textColor="#090909"
+        android:background="#5da395" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:id="@+id/button6"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/teacher"/>
+
+
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:text="Profile"
+        android:id="@+id/button7"
+        android:layout_marginTop="52dp"
+        android:layout_below="@+id/button6"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_button2"
+        android:backgroundTint="#5da395"
+
+        android:textSize="20dp"
+        android:drawablePadding="6dp"
+        android:drawableLeft="@drawable/studentprofile"/>
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:text="Rate TA"
+        android:id="@+id/button8"
+        android:background="@drawable/round_button2"
+        android:backgroundTint="#5da395"
+
+        android:textSize="20dp"
+        android:layout_below="@+id/button7"
+        android:layout_alignStart="@+id/button7"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="6dp"
+        android:drawableLeft="@drawable/reviewprofile"/>
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:text="Chat with TA"
+        android:id="@+id/button9"
+        android:layout_below="@+id/button8"
+        android:layout_alignStart="@+id/button8"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_button2"
+        android:backgroundTint="#5da395"
+
+        android:textSize="20dp"
+        android:drawablePadding="6dp"
+        android:drawableLeft="@drawable/chatprofile"/>
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:text="Add Course"
+        android:id="@+id/button16"
+        android:layout_below="@+id/button9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_button2"
+        android:backgroundTint="#5da395"
+
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/courseprofile"
+        android:drawablePadding="6dp"/>
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/toolbar"
+    android:orientation="horizontal"
+    android:background="@drawable/customlayout">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1" >
+    </View>
+    <Button
+
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:id="@+id/button19"
+        android:background="@drawable/button"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1" >
+    </View>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+
+        android:id="@+id/button20"
+        android:background="@drawable/profile3"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1" >
+    </View>
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text=""
+        android:background="@drawable/chat2"
+        android:id="@+id/button21" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1" >
+    </View>
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text=""
+        android:id="@+id/button22"
+        android:background="@drawable/review"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1" >
+    </View>
+</LinearLayout>

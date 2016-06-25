@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background1">
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Name"
+            android:id="@+id/textView5"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="45dp"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#0b0a0a" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Email"
+            android:id="@+id/textView6"
+            android:layout_below="@+id/textView5"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="41dp"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#0e0e0e" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Roll No"
+            android:id="@+id/textView8"
+            android:layout_marginTop="36dp"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentStart="true"
+            android:textSize="25dp"
+            android:textColor="#0b0a0a"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView9"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="60dp"
+            android:layout_marginLeft="20dp"
+            android:text="&quot;"
+            android:layout_alignTop="@+id/textView5"
+            android:layout_toEndOf="@+id/textView15"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView10"
+
+            android:text="kanchanjot15023@iiitd.ac.in"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/textView6"
+            android:layout_alignStart="@+id/textView9"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView11"
+            android:layout_alignEnd="@+id/textView10"
+            android:text="MT15023"
+            android:layout_alignTop="@+id/textView8"
+            android:layout_alignStart="@+id/textView10"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="TA for"
+            android:id="@+id/textView12"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/textView8"
+            android:layout_marginTop="60dp"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#0f0f0f" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/textView11"
+            android:id="@+id/tacourse"
+            android:layout_below="@+id/textView12"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#0d0c0c"
+            android:textSize="20dp"></LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Courses Opted"
+            android:id="@+id/textView13"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#0d0c0c"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tacourse"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView13"
+            android:layout_alignParentStart="true"
+            android:id="@+id/courses"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#0d0c0c"
+            android:textSize="20dp"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Skill Set"
+        android:id="@+id/textView15"
+        android:layout_below="@+id/courses"
+        android:layout_alignParentStart="true"
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#111111" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentStart="true"
+        android:id="@+id/skillset"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#0d0c0c"
+        android:textSize="20dp"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Recommended Skill"
+        android:id="@+id/textView27"
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#111111"
+        android:layout_below="@+id/skillset"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recommended"
+        android:layout_below="@+id/textView27"
+        android:layout_alignStart="@+id/textView27"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#0d0c0c"
+        android:textSize="20dp"/>
+</RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
